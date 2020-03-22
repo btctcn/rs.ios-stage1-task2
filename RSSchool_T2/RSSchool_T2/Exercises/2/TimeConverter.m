@@ -9,10 +9,6 @@
     
     if(hoursInt < 0 || hoursInt > 23 || minutesInt < 0 || minutesInt > 59) return @"";
     
-    NSString *quarter = @"quarter";
-    NSString *oclock = @"o' clock";
-    NSString *half = @"half";
-    
     if(minutesInt == 0) {
         return[NSString stringWithFormat:@"%@ o' clock", [self converToWords:hoursInt]];
     }
