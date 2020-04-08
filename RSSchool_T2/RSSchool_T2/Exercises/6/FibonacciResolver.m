@@ -5,7 +5,6 @@
     int num = number.intValue;
     
     int mul = 0;
-    int cnt = 2;
     
     int first = 0;
     int second = 1;
