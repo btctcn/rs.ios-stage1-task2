@@ -15,6 +15,5 @@
     }
 
     return @[[NSNumber numberWithInt:first], [NSNumber numberWithInt:second], (first*second == num) ? @1 : @0 ];
-    
 }
 @end
